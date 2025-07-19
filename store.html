@@ -1,102 +1,30 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <title>المتجر</title>
-  <style>
-    body {
-      background: linear-gradient(135deg, #e3f0ff 0%, #ffffff 100%);
-      color: #222;
-      font-family: 'Tajawal', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      min-height: 100vh;
-      direction: rtl;
-    }
-    .container {
-      background: #fff;
-      max-width: 600px;
-      margin: 40px auto 0 auto;
-      border-radius: 18px;
-      box-shadow: 0 6px 32px 0 rgba(21,102,214,0.09), 0 1.5px 8px 0 rgba(0,0,0,0.05);
-      padding: 36px 28px 32px 28px;
-      text-align: right;
-      border-top: 6px solid #1566d6;
-      border-bottom: 2px solid #111;
-    }
-    h1 {
-      color: #1566d6;
-      margin-bottom: 22px;
-      text-align: center;
-      font-size: 2.3em;
-      font-weight: bold;
-      text-shadow: 1px 1px 0 #e3f0ff;
-    }
-    .shop-list {
-      background: #f6faff;
-      border-radius: 10px;
-      border: 1px solid #d1e5fd;
-      padding: 18px 22px;
-      margin-bottom: 18px;
-      color: #062a4c;
-      font-size: 1.2em;
-      line-height: 2.2;
-      box-shadow: 0 2px 9px rgba(21,102,214,0.08);
-    }
-    .note {
-      margin-bottom: 20px;
-      background: #e3f0ff;
-      border-radius: 6px;
-      padding: 10px 15px;
-      color: #1566d6;
-      font-weight: bold;
-      border-right: 4px solid #1566d6;
-      font-size: 1.09em;
-    }
-    a {
-      display: inline-block;
-      background: linear-gradient(90deg, #1566d6 60%, #062a4c 100%);
-      color: #fff;
-      text-decoration: none;
-      padding: 12px 34px;
-      border-radius: 10px;
-      font-weight: bold;
-      transition: background 0.2s, color 0.2s;
-      margin-top: 32px;
-      font-size: 1.05em;
-      box-shadow: 0 2px 7px rgba(0,0,0,0.07);
-    }
-    a:hover {
-      background: #111;
-      color: #e3f0ff;
-    }
-    .back-link {
-      text-align: center;
-      margin-top: 30px;
-    }
-    @media (max-width: 700px) {
-      .container { padding: 12px 2vw; }
-      h1 { font-size: 1.15em; }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>المتجر</h1>
-    <div class="note">
-      لطلب منتج أو استفسار تواصل مع الإدارة عبر الديسكورد أو من داخل اللعبة.
-    </div>
-    <div class="shop-list">
-      <ul>
-        <li>سيارة كلاسيك - <b>5 دولار</b></li>
-        <li>سيارة حديثة - <b>10 دولار</b></li>
-        <li>سيارة مخصصة - <b>55 ريال</b></li>
-        <li>منتج خاص - حسب الاتفاق</li>
+<section style="background: #f0f7ff; padding: 40px 20px; border-top: 6px solid #1566d6;">
+  <h2 style="text-align:center; color:#1566d6; font-size:2em;">🛒 خيارات الشراء</h2>
+  <p style="text-align:center; color:#062a4c; font-size:1.1em; margin-bottom:30px;">
+    اختر ما يناسبك وتواصل معنا عبر الديسكورد
+  </p>
+
+  <div style="display:flex; flex-direction:column; gap:20px; align-items:center;">
+    <div style="background:#fff; padding:20px; border-radius:10px; width:90%; max-width:500px; box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+      <h3 style="color:#062a4c;">🚗 السيارات</h3>
+      <ul style="line-height:2; color:#111; padding-right:20px;">
+        <li>دوج - 5$</li>
+        <li>شاص - 10$</li>
+        <li>روز رايز - 15$</li>
+        <li>موستنق - 5$</li>
+        <li>مخصصة - 20$</li>
+        <li>جمس سييرا - 10$</li>
+        <li>جي كلاس - 10$</li>
       </ul>
+      <a href="https://discord.gg/bt-l" target="_blank" style="background:#1566d6; color:white; padding:10px 25px; display:inline-block; margin-top:10px; border-radius:8px; text-decoration:none;">شراء من روم السيارات</a>
     </div>
-    <div class="back-link">
-      <a href="index.html">العودة للرئيسية</a>
+
+    <div style="background:#fff; padding:20px; border-radius:10px; width:90%; max-width:500px; box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+      <h3 style="color:#062a4c;">🏠 البيوت</h3>
+      <ul style="line-height:2; color:#111; padding-right:20px;">
+        <li>البيت - من 15$ إلى 20$</li>
+      </ul>
+      <a href="https://discord.gg/DDRrCyEV" target="_blank" style="background:#1566d6; color:white; padding:10px 25px; display:inline-block; margin-top:10px; border-radius:8px; text-decoration:none;">شراء من روم المنازل</a>
     </div>
   </div>
-</body>
-</html>
+</section>
